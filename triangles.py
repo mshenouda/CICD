@@ -1,4 +1,3 @@
-Python
 import math
 
 # Take input from the user
