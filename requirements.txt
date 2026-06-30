@@ -1,0 +1,19 @@
+# This is a comment inside a requirements file
+
+# 1. Install the latest available version of a package
+requests
+
+# 2. Install an exact version (Highly Recommended)
+fastapi == 0.110.0
+
+# 3. Set a minimum version requirement
+pandas >= 2.2.0
+
+# 4. Define a version range
+numpy >= 1.22.0, < 2.0.0
+
+# 5. Install a package with optional extras
+requests[security] >= 2.8.1
+
+# 6. Install directly from a specific URL (GitHub)
+urllib3 @ https://github.com
